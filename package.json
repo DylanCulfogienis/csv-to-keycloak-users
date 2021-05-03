@@ -4,6 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "csv-parse": "^4.15.4"
+    "commander": "^7.2.0",
+    "csv-parse": "^4.15.4",
+    "keycloak-admin": "^1.14.15",
+    "prompts": "^2.4.1"
+  },
+  "scripts": {
+    "keycloak": "node index.js"
   }
 }
