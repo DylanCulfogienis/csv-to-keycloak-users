@@ -36,6 +36,7 @@ const csvRecordToKeycloakUserRepresentation = ({Name, Rank, Callsign, Position, 
   firstName: Name.split(' ')?.[0],
   lastName: Name.split(' ')?.[1],
   attributes: {
+    EDIPI: email,
     location: Location,
     gcasRank: Rank,
     gcasCallsign: Callsign,
